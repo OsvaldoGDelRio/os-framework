@@ -1,2 +1,3 @@
 # os-framework
-Pequeño Framework en PHP
+Mini Framework en PHP
+

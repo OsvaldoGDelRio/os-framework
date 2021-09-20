@@ -1,0 +1,28 @@
+{
+    "autoload":
+	{
+		"psr-4":
+		{
+			"app\\": "app"
+		}
+	},    
+    "require": {
+        "osvaldogdelrio/factory": "dev-main",
+        "osvaldogdelrio/pdo-database": "dev-main",
+        "osvaldogdelrio/php-token": "dev-main",
+        "osvaldogdelrio/contenedor-id": "dev-main",
+        "osvaldogdelrio/http-request-php": "dev-main",
+        "osvaldogdelrio/middleware-php": "dev-main",
+        "osvaldogdelrio/session-php": "dev-main",
+        "osvaldogdelrio/authorize-php": "dev-main"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "scrutinizer/ocular": "dev-master"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "tests/"
+        }
+    }
+}
